@@ -95,7 +95,25 @@
 - Phase 0 docs 暫存 /workspace/visual-math-learning/；批准後搬入該 repo。
 
 
-## D-013 — APPROVE PHASE 0
+## D-014 — Phase 1 垂直切片完成
 - **日期**：2026-09-08
-- **狀態**：accepted
-- **決定**：進入 Phase 1；stack 採 TS+Next.js+SVG+Rational；repo=https://github.com/willyeahyeah/AImath
+- **狀態**：completed
+- **交付**：
+  - Next.js + TypeScript + Tailwind 專案
+  - Rational 類（exact gcd/lcm）+ MathVerifier
+  - Teaching Brain（Parser, Misconceptions, LessonPlanBuilder）
+  - Visual Math Engine（SVG 渲染）
+  - Mock OCR/TTS adapters
+  - 完整 UI 流程（輸入→確認→教學→檢查點→fallback→遷移）
+  - 38 個單元測試（全部通過）
+  - E2E 測試架構
+  - 響應式手機優先 UI
+  - 繁中+英文 README
+- **驗證**：
+  - ✅ 1/2+1/3=5/6（精確）
+  - ✅ LCD(2,3)=6
+  - ✅ 拒絕 2/5
+  - ✅ ADD-M1 檢查點
+  - ✅ 遷移題 1/4+1/6
+  - ✅ 模擬 OCR/TTS 清楚標記
+- **分支**：cursor/phase1-vertical-slice-e206
