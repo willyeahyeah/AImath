@@ -58,7 +58,9 @@ export default function Home() {
   const handleConfirm = () => {
     if (!problem || !problem.parsed) return;
 
-    const confirmedProblem = { ...problem, confirmedByUser: true };
+    const confirmedProblem: MathProblem = { ...problem, confirmedByUser: true };
+    if (!confirmedProblem.parsed) return;
+    
     setProblem(confirmedProblem);
 
     // Verify solution
