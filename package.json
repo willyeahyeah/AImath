@@ -1,0 +1,53 @@
+{
+  "name": "visual-math-learning",
+  "version": "0.1.0",
+  "description": "香港小學視覺數學學習 App（粵語旁白 + 繁體中文介面）",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:e2e": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willyeahyeah/AImath.git"
+  },
+  "keywords": [
+    "math",
+    "education",
+    "fractions",
+    "hong-kong",
+    "cantonese"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willyeahyeah/AImath/issues"
+  },
+  "homepage": "https://github.com/willyeahyeah/AImath#readme",
+  "dependencies": {
+    "next": "^16.3.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^26.5.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "autoprefixer": "^10.5.5",
+    "jest": "^30.5.1",
+    "jest-environment-jsdom": "^30.5.1",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
